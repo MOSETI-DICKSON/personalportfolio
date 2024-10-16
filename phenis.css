@@ -369,6 +369,23 @@ button:hover{
         flex: 1 1 50%; /* Two-column layout on tablets */
     }
 }
+ /* Responsive layout */
+ @media (max-width: 768px) {
+    .Services-list div {
+        width: 45%; /* Adjust to 2 per row on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .Services-list div {
+        width: 100%; /* Full width for mobile phones */
+    }
+}
+
+.learn-more {
+    color: red;
+    font-weight: bold;
+}
 
 
 
