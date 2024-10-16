@@ -355,7 +355,7 @@ footer {
     flex-basis:40%;
 }
 .contact-right{
-    flex-basis:;
+    
     position: relative;
     align-items: flex-end;
 }
