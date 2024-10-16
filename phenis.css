@@ -224,22 +224,7 @@ button:hover{
     background-color: orangered;
 }
 
-footer {
-    color:white;
-    font-size: 1.7rem;
-    font-family: Arial;
-    border: 8px solid black;
-    display: flex;
-    justify-content:center;
-    text-align: center;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
-    background-color:black ;
-    max-width:px;
-   flex-wrap: wrap;
-   font-weight: 100;
-}
+
 
 .Services-list div i{
     font-size: 50px;
