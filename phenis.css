@@ -18,6 +18,11 @@ body {
 .container {
    display: grid;
    grid-template-columns: 1fr;
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 nav{
@@ -179,15 +184,14 @@ nav ul li a:hover::after{
 
 }
 .Services-list div{
-    background-color: cyan;
-    padding:35px;
-    font-size: 13px;
-    font-weight:300;
-    border-radius: 10px;
+    background-color: #00FFFF;
+    border-radius: 15px;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
     color: black;
-    transition: background 0.5s, transform 0.5s;
-
-
+    transition: transform 0.2s;
 
 }
 button{
