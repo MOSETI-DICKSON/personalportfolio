@@ -34,12 +34,13 @@ nav{
 }
 .logo{
     font-size: 3rem;
-    color: greenyellow;
+    color: orange;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s;
     width: 140px;
     text-decoration: none;
+    margin-top: 60px;
 }
 .logo:hover{
     transform: scale(1.1);
@@ -85,6 +86,7 @@ nav ul li a:hover::after{
 }
 .header-text p{
     font-size: 80px;
+    color: #00FFFF;
 }
 #about{
     padding:100px 0;
