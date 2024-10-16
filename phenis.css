@@ -73,19 +73,20 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 30px;
+    margin-bottom: 50px;
 }
 .header-text h1{
     font-size: 55px;
-    margin-top: 20px;
+    margin-top: 10px;
     color:white;
 }
 .header-text h1 span{
     color: red;
 }
 .header-text p{
-    font-size: 80px;
+    font-size: 60px;
     color: #00FFFF;
 }
 #about{
