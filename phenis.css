@@ -367,6 +367,18 @@ footer {
     margin-right: 15px;
     font-size: 25px;
 }
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .portfolio-item {
+        flex: 1 1 50%; /* Two-column layout on tablets */
+    }
+}
+
 
 
 
