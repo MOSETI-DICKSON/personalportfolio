@@ -83,7 +83,7 @@ nav ul li a:hover::after{
     color:white;
 }
 .header-text h1 span{
-    color: red;
+    color: aqua;
 }
 .header-text p{
     font-size: 60px;
@@ -195,7 +195,7 @@ nav ul li a:hover::after{
 
 }
 .Services-list div{
-    background-color: #00FFFF;
+    background-color: white;
     border-radius: 15px;
     width: 30%;
     padding: 20px;
@@ -204,9 +204,7 @@ nav ul li a:hover::after{
     color: black;
     transition: transform 0.2s;
 
-}
-button{
-   
+
     background-color: aqua;
 
 }
@@ -231,14 +229,14 @@ button{
     padding:18px;
     background-color:black;
     color: white;
-    border:1px solid black;
+    border:1px solid orange;
     border-radius: 4px;
     cursor: pointer;
     display: flex;
 
 }
 button:hover{
-    background-color: orangered;
+    background: #00FFFF;
 }
 
 
@@ -264,7 +262,7 @@ button:hover{
 }
 .Services-list div:hover{
     background: orange;
-    transform: translateY(-10px);
+    transform: translateY(-15px);
 }
 /* portfolio */
 #portfolio{
@@ -284,6 +282,10 @@ button:hover{
     overflow: hidden;
     display: flex;
     border: 5px;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, min-max(20%, 5fr));
+    grid-gap: 40px;
+    margin-top: 50px;
 }
 .work img{
     width:150%;
