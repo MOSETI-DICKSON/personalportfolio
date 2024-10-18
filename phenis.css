@@ -433,6 +433,21 @@ footer{
 .btn.btn2:hover{
     transform: translateY(-0.5PX) ;
 }
+.contact-right form{
+    width: 100%;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: cornflowerblue;
+    padding: 15px;
+    margin: 15px;
+    color: orange;
+    font-size: 18px;
+    border-radius: 16px;
+
+}
 
 
 
