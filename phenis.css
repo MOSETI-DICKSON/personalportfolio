@@ -433,8 +433,32 @@ footer{
 
     }
     .header-text h1{
-        font-size: 20px;
+        font-size: 22px;
         
+    }
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+       background-color:orange;
+       position:fixed; 
+       top: 0;
+       right: 0;
+       width:200px;
+       height: 100vh;
+       padding-top: 50px;
+
+    }
+    nav ul li{
+       display: block; 
+       margin: 25px;
+    }
+    nav ul .fa-solid{
+        position:absolute;
+        top:25px;
+        left:25px;
+        cursor: pointer;
     }
     
 }
