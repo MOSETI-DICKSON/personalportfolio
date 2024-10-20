@@ -443,11 +443,11 @@ nav .fa-solid{
        background-color:orange;
        position:fixed; 
        top: 0;
-       left:-200px;
+       left:;
        width:200px;
        height: 100vh;
        padding-top: 50px;
-       z-index:2;
+       z-index:4;
 
     }
     nav ul li{
