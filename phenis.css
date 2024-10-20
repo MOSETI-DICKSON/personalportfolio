@@ -33,14 +33,24 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    font-size: 3rem;
+    font-size:medium;
     color: orange;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s;
     width: 140px;
     text-decoration: none;
-    margin-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 47px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    position: absolute;
+    left: 10px;
+
+
+    
+    
 }
 .logo:hover{
     transform: scale(1.1);
@@ -444,10 +454,11 @@ footer{
        background-color:orange;
        position:fixed; 
        top: 0;
-       right: 0;
+       right:-200px;
        width:200px;
        height: 100vh;
        padding-top: 50px;
+       z-index:2;
 
     }
     nav ul li{
@@ -459,6 +470,7 @@ footer{
         top:25px;
         left:25px;
         cursor: pointer;
+        right: 0;
     }
     
 }

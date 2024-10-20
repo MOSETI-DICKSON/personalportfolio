@@ -13,16 +13,16 @@
             <nav> 
                 <a href="#" class="logo">Moseti</a>
                
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Skills</a></li>
                     <li><a href="#">Experience</a></li>
                     <li><a href="#">Education</a></li>
-                    <i class="fa-solid fa-times"></i>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
             
                 </ul>
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav> 
             <div class="header-text">
                 <p><strong>Web and mobile App Developer</strong></p><br><br><br><br><br><br><br>
@@ -221,5 +221,16 @@
     }   
   
    </script>
+    <script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+    </script>
+
  </body>
   </html> 
