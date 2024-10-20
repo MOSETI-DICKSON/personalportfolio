@@ -14,11 +14,11 @@
                 <a href="#" class="logo">Moseti</a>
                
                 <ul id="sidemenu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Experience</a></li>
-                    <li><a href="#">Education</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-times" onclick="closemenu()"></i>
             
                 </ul>
@@ -38,22 +38,11 @@
                <img  src="_MG_3422.jpg">
             </div>
 
-
+          <div id="about">
             <div class="about-col-2">
 
                 <h4 class="sub-title"><i class="fa-solid fa-user"></i>About Me</h4>
-                <script>
-                    function jasper() {
-                        const heading =document.querySelector('h4');
-                        if(heading.innerHTML === 'About Me'){
-                            heading.innerHTML = 'Welcome';
-                        } else{
-                           heading.innerHTML = 'About Me';
-                        }
-                    }
-                </script>
-                <button onclick="jasper()">Tab here</button>
-                 <p>I'm Moseti Dickson Nyambichu a student in Kisii Univeristy undertaking Computer Science in the Schoool of Information Science and Technology.
+                <p>I'm Moseti Dickson Nyambichu a student in Kisii Univeristy undertaking Computer Science in the Schoool of Information Science and Technology.
                 Am aspiring to specialize in Full-stack Development which entirely deals with website development,App Development such creation of mobile games based on
                 consumer preferences.
                  </p>
@@ -89,6 +78,7 @@
              </div>
           </div>
          </div>
+        </div>
       </div>
    </div>
  
@@ -96,6 +86,7 @@
     
       
         <div class="container">
+          <div id="services">
             <h1 class="sub-title"><i class="fa-brands fa-aws"></i> My Services</h1> 
              <div class="Services-list">
                  <div> 
@@ -117,7 +108,9 @@
                     <a href="#">Learn more</a>
                 </div>
             </div>
+          </div>
         </div>
+    </div>
 
         <div class="container">
                 <h1 class="sub-title">My Work</h1>
