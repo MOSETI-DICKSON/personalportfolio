@@ -424,12 +424,16 @@ footer{
     max-width: 1200px;
     flex-wrap: wrap;
 }
+nav .fa-solid{
+    display: none;
+}
 @media (max-width: 768px) {
     footer {
         flex-direction: column;
         text-align: center;
     }
 }
+
 @media (max-width: 600px) {
     footer {
         font-size: 1rem;
@@ -510,13 +514,9 @@ form.btn2{
     background: orange;
     font-weight: 300;
     margin-top: 20px;
+}
 
 
-}
-nav .fas{
-    display: none;
-}
-/* ----css for small screens----- */
 
 
 
