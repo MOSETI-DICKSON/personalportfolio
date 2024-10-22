@@ -443,7 +443,7 @@ nav .fa-solid{
        background-color:orange;
        position:fixed; 
        top: 0;
-       left:;
+       left:0;
        width:200px;
        height: 100vh;
        padding-top: 50px;
