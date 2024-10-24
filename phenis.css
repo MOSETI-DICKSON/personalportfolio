@@ -21,13 +21,14 @@ body {
 }
 .container {
    display: flex;
+   flex-direction: row;
    grid-template-columns: 1fr;
-   display: flex;
     justify-content: space-between;
     gap: 20px;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 10%;
+
 }
 
 nav{
@@ -37,20 +38,11 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    font-size:medium;
+    width:140px;
     color: orange;
-    font-weight: 800;
-    cursor: pointer;
-    transition: 0.5s;
-    width: 140px;
+    font-size: 45px;
     text-decoration: none;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 47px;
-    font-size: 30px;
-    margin-bottom: 50px;
-    position: absolute;
-    left: 10px;
+    font-weight: 500;
 
 
     
@@ -64,8 +56,12 @@ nav{
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 50px 20px;
     font-size: large;
+    margin-top: 49px;
+    margin-right: 20px;
+    
+
 }
 nav ul li a{
     color: white;
@@ -92,16 +88,17 @@ nav ul li a:hover::after{
     margin-bottom: 50px;
 }
 .header-text h1{
-    font-size: 55px;
-    margin-top: 10px;
+    font-size:34px;
+    margin-top: 120px;
     color:white;
 }
 .header-text h1 span{
     color: aqua;
 }
 .header-text p{
-    font-size: 60px;
+    font-size:39px;
     color: #00FFFF;
+    margin-top: 180px;
 }
 #about{
     padding:100px 0;
@@ -219,11 +216,6 @@ nav ul li a:hover::after{
     text-align: center;
     color: black;
     transition: transform 0.2s;
-    flex: 1;
-    
-
-
-
     background-color: aqua;
 
 }
@@ -399,21 +391,7 @@ button:hover{
     color: red;
     font-weight: bold;
 }
-footer{
-    color:white;
-    font-size: 1.7rem;
-    font-family: Arial;
-    border: 2px solid black;
-    display: flex;
-    justify-content:center;
-    text-align: center;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
-    background-color:black ;
-    max-width: 1200px;
-    flex-wrap: wrap;
-}
+
 nav .fa-solid{
     display: none;
 }
@@ -431,21 +409,26 @@ nav .fa-solid{
         font-size: 8px;
 
     }
-    .header-text h1{
+    .header-text p{
         font-size: 22px;
+        margin-top: 50px;
         
+    }
+    .header-text h1{
+        font-size: 50px;
+        margin-top: 10px;
     }
     nav .fa-solid{
         display: block;
         font-size: 25px;
     }
     nav ul{
-       background-color:orange;
+       background-color:black;
        position:fixed; 
        top: 0;
        left:0;
        width:200px;
-       height: 100vh;
+       height: 50vh;
        padding-top: 50px;
        z-index:4;
 
@@ -478,9 +461,9 @@ nav .fa-solid{
         font-size: 16px;
         margin-right: 20px;
     }
-    .container{
-        flex-direction: column;
-    }
+   
+      
+   
     .contact-left,.contact-right{
         flex-basis:100%;
     }
@@ -497,6 +480,7 @@ nav .fa-solid{
 }
 .btn.btn2{
     background: orange;
+    display:flex;
    
 
 }
