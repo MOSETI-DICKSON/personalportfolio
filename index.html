@@ -31,7 +31,7 @@
         </div>
      </div> 
 
-    <div id="about">
+    <div id="about" onclick="close">
       <div class="container">
         <div class="row">
             <div class="about-col-1">
@@ -84,7 +84,7 @@
  
    
     
-   <div id="services">
+   <div id="services" onclick="close">
         <div class="container">
            <h1 class="sub-title"><i class="fa-brands fa-aws"></i> My Services</h1> 
              <div class="Services-list">
@@ -110,7 +110,7 @@
           </div>
         </div>
     </div>
-       <div id="portfolio">
+       <div id="portfolio" onclick="close">
             <div class="container">
                 <h1 class="sub-title">My Work</h1>
                 <div class="work-list">
@@ -151,7 +151,7 @@
     </div>
     <footer>
     <!-- contact -->
-      <div id="contact">
+      <div id="contact" onclick="close">
         <!-- <div class="container"> -->
             <div class="row">
                 
@@ -221,6 +221,11 @@ function openmenu(){
 }
 function closemenu(){
     sidemenu.style.left = "-200px";
+}
+function close(){
+    mobileNavbarRef.current.style.display ='none';
+    document.addEventLister('click', closeNavbar)
+
 }
     </script>
 

@@ -5,11 +5,12 @@
     
 }
 html{
-    scroll-behavior: border-box;
+    scroll-behavior:smooth;
 }
 body {
     background-color:black;
     color:white;
+    width: 100%;
 }
 #header {
     width: 100%;
@@ -43,6 +44,7 @@ nav{
     font-size: 45px;
     text-decoration: none;
     font-weight: 500;
+    margin-top:90px;
 
 
     
@@ -221,12 +223,7 @@ nav ul li a:hover::after{
     font-weight: 300;
     
 }
-button:hover{
-    cursor: pointer;
-    background-color: chartreuse;
-    padding: 5px;
-    margin:2px;
-}
+
 label{
     margin: 10px 0 5px;
     display: flex;
@@ -416,21 +413,23 @@ nav .fa-solid{
     nav .fa-solid{
         display: block;
         font-size: 25px;
+        
     }
     nav ul{
        background-color:black;
        position:fixed; 
        top: 0;
-       left:0;
+       left:-200px;
        width:200px;
        height: 50vh;
        padding-top: 50px;
-       z-index:4;
-
+       z-index: 2;
+       transition: left 0.5s;
     }
-    nav ul li{
+     nav ul li{
        display: block; 
        margin: 25px;
+       
     }
     nav ul .fa-solid{
         position:absolute;
@@ -438,6 +437,7 @@ nav .fa-solid{
         left:25px;
         cursor: pointer;
         right: 0;
+        
     }
     .sub-title{
         font-size: 40px;
@@ -528,6 +528,14 @@ form.btn2{
     font-weight: 300;
     margin-top: 20px;
 }
+nav .fa-solid{
+    font-weight: 700;
+    color: orange;
+    padding-right:200%;
+    
+}
+
+    
 
 
 
