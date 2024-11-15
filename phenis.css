@@ -553,22 +553,41 @@ nav .fa-solid{
     
 }
 }
-@keyframes slideIn {
+.myPapa {
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 4s steps(24, end) infinite, erase 4s steps(24, end) 4s infinite;
+  }
+  
+  /* Typing animation */
+  @keyframes typing {
     from {
-      transform: translateX(-100%);
-      opacity: 0;
+      width: 0;
     }
     to {
-      transform: translateX(0);
-      opacity: 1;
+      width: 24ch; /* Adjust to match the number of characters */
     }
   }
-
-  .header-text h1 span { 
-        
-    color: coral;
-    animation:slideIn 2s ease-in-out;
-  } 
+  
+  /* Erase animation */
+  @keyframes erase {
+    from {
+      width: 24ch;
+    }
+    to {
+      width: 0;
+    }
+  }
+  
+  /* Blinking cursor animation */
+  @keyframes blink {
+    from {
+      border-color: transparent;
+    }
+    to {
+      border-color: black;
+    }
+  }
     
 
 
