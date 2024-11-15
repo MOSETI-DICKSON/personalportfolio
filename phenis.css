@@ -93,11 +93,21 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size:34px;
     margin-top: 120px;
-    color:white;
+    color:azure;
 }
 .header-text h1 span{
     color: aqua;
+    position: relative;
+    animation: words 10s infinite;
 }
+.header-text h1 span::after{
+    content:"" ;
+    position: absolute;
+    width:calc(1em 20px);
+    height: 104%;
+    
+}
+
 .header-text p{
     font-size:39px;
     color: #00FFFF;
@@ -543,6 +553,22 @@ nav .fa-solid{
     
 }
 }
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .header-text h1 span { 
+        
+    color: coral;
+    animation:slideIn 2s ease-in-out;
+  } 
     
 
 
